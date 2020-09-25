@@ -1,9 +1,19 @@
 .container{
-  margin-top: 0;
-  margin-bottom: 200px;
+  margin-top: 50px;
+  margin-bottom: 130px;
 }
 
-
+.container input,
+.container ::-webkit-input-placeholder {
+  color: black !important;
+}
+  
+.container input:focus {
+  background-color: transparent;
+  box-shadow: none !important;
+  border: none;
+  border-bottom: 2px solid tomato;
+}
 
 form input[name="city"],
 form input[name="country"] {
